@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+.navigation{
+    display: inline-block;
+    background-color: #fff;
+    padding: 0.2rem 0.8rem;
+    display: flex;
+    justify-content: center; 
+    gap: 2rem;
+    text-decoration: none;
+    margin-bottom: 20px;
+      align-items: center; 
+      justify-content: space-between;
+  }
+  
+  .navigation a {
+      color: rgb(7, 1, 1);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      text-transform: none;
+      font-family: poppins;
+  }
+  
+  .navigation ul{
+    display: flex; 
+    gap: 2rem; 
+    list-style-type: none;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  
+  .logo-container img {
+    width: 110px;
+    height: auto; 
+  }
+  
+.GetStarted-Button{
+    color: #ece7e6;
+    font-family: poppins;
+    border-radius: 10px;
+    opacity: 100%;
+    background-color: #FF360B;
+    width: 170px;
+    height: 50px;
+    font-weight: bold;
+    border-color: #FF360B;
+    margin-left: auto;
+  }
+
+  
+
+.container{
+display: flex;
+align-items: center;
+gap: 250px;
+margin-top: 20px;
+}
+
+.search-input{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.search-input input[type="search" ]{
+    padding:10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: poppins;
+}
+
+
+.search-button{
+    padding:10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #FF360B;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 5px;
+    font-family: poppins;
+}
+
+
+
+
+.search-button:hover{
+    background-color: #581303;
+}
+
+.search-button img{
+    width: 20px;
+    height: auto;
+}
+
+select{
+    padding:10px;
+    font-size: 16px;
+    border: 1.5px solid #FF360B;
+    border-radius: 4px;
+    font-family: poppins;
+    margin-top: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: poppins;
+    margin-top: 50px;
+}
+
+
+
+/* courses */
+.course-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.course-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.course-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.course-card h4 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: poppins;
+}
+
+.course-card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  font-family: poppins;
+}
+
+.enroll-button {
+    background-color: #FF360B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    font-family: poppins;
+    margin-bottom: 10px;
+}
+
+.enroll-button:hover {
+    background-color: #FF360B;
+}
+
+/* course cards */
+.course-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+    padding: 10px;
+}
+
+.featured-courses {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  font-family: poppins;
+}
+
+.featured-courses:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.featured-courses img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.course-info {
+    padding: 15px;
+}
+
+.course-info h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  font-family: poppins;
+}
+
+.course-info p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+  font-family: poppins;
+}
+
+.course-info i {
+    color: #FF360B;
+    margin-right: 5px;
+  font-family: poppins;
+}
+
+
+
+/* extra resources*/
+
+.access-resources{
+    background-color: white; 
+   font-family: poppins;
+   color: white;
+   margin-left:50px;
+   margin-right: 75px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+   padding-bottom: 25px;
+}
+
+.career-4{
+    text-align: center;
+}
+
+footer {
+  background-color: #070f3b;
+  color: white;
+  padding: 20px 0;
+  font-family: poppins;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-media {
+  margin-bottom: 15px;
+}
+
+.social a {
+  margin: 0 10px;
+}
+
+.social img {
+  width: 40px; 
+  height: 40px;
+  filter: brightness(0) invert(1); 
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.social img:hover {
+  transform: scale(1.2);
+  filter: brightness(1) invert(0.8);
+}
+
+.navigation-footer {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.navigation-footer li {
+  margin: 0 15px; 
+}
+
+.navigation-footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navigation-footer a:hover {
+  color: #FF360B; }
+
+.copyright {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.copy-footer {
+  margin: 5px 0;}
+
+
+
+
+
+  .access-resources {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+    margin: 30px 0;
+    padding: 10px;
+}
+
+.resource-card {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0; 
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.resource-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.resource-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.resource-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.resource-card a {
+    color: #FF360B;
+    text-decoration: none;
+  font-family: poppins;
+}
+
+.resource-card a:hover {
+    text-decoration: underline;
+  font-family: poppins;
+}
+
+/* my learning paths */
+
+.learning-paths {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+  padding: 10px;
+}
+
+.path-card {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-family: poppins;
+}
+
+.path-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.path-card h4 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #333;
+  font-family: poppins;
+}
+
+.path-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+  font-family: poppins;
+}
+
+.explore-button {
+  background-color: #FF360B;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  font-family: poppins;
+}
+
+.explore-button:hover {
+  background-color: #FF360B;
+}
+
+.user-profile {
+  float: right;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.user-profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.userName{
+  font-family: poppins;
+}

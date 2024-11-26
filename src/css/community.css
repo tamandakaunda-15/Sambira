@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* For all  */
+body {
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-image: url(images/divaris-shirichena-04Rd4wrSI1M-unsplash.jpg);
+  color: #fff;
+  padding: 10px 20px;
+  font-family: poppins;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+header ul li {
+  margin: 0 15px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: poppins;
+}
+
+h2 {
+  color: #333;
+}
+
+section {
+  padding: 20px;
+}
+
+/* Buttons */
+.btn {
+  background-color: #FF360B;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: poppins;
+}
+
+.btn:hover {
+  background-color: #cc2d07;
+}
+
+/* Groups */
+.groups-container, .mentors-container {
+  display: flex;
+  gap: 20px;
+}
+
+.group, .mentor {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 45%;
+}
+
+.posts-container .post {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+
+/* footer edits */
+.social-media{
+    background-color: #FF360B;
+    padding: 20px;
+  }
+  
+  .social{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .social a{
+    margin: 0 20px;
+  }
+  
+  .social img{
+    width: 30px;
+    height: auto;
+  }
+  
+  .navigation-footer{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    gap: 2rem;
+  }
+  
+  .navigation-footer a{
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+  }
+  
+  .copywright{
+    background-color: #ece7e6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .copy-footer{
+    color: black;
+    text-align: center;
+    background-color: #e62b05;
+    margin: 0;
+    font-family: poppins;
+    font-size: 12px;
+  }
+
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    position: absolute;
+    right: 20px;
+    margin-top: 15px; 
+}
+
+.user-profile .userName {
+    font-size: 1.2rem;
+    color: #333;
+    margin-right: 10px;
+}
+
+.user-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Add to your existing community.css */
+.groups-container,
+.my-groups-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.groups-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.group-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.group-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.join-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.join-button:hover {
+  background: #0056b3;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 20px;
+}
+
+.error {
+  color: #dc3545;
+}
