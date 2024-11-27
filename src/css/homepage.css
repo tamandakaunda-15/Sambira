@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+  font-family:poppins, sans-serif;
+background-image: url(images/home-background.png);
+color: white;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.7);
+background-blend-mode: overlay ;
+}
+
+.h1{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+
+*{
+  margin: 0%;
+  padding:0%;
+  box-sizing: border-box;
+}
+
+.navigation{
+  display: inline-block;
+  background-color: #fff;
+  padding: 0.2rem 0.8rem;
+  display: flex;
+  justify-content: center; 
+  gap: 2rem;
+  text-decoration: none;
+  margin-bottom: 20px;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.navigation a {
+    color: rgb(7, 1, 1);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-transform: none;
+}
+
+.navigation ul{
+  display: flex; 
+  gap: 2rem; 
+  list-style-type: none;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  flex-grow: 1;
+}
+
+
+.logo-container img {
+  width: 110px;
+  height: auto; 
+}
+
+
+.Explore-Button{
+  color: #ece7e6;
+  font-family: poppins;
+  border-radius: 10px;
+  opacity: 100%;
+  align-items: center;
+  background-color: #FF360B;
+  width: 170px;
+  height: 50px;
+  font-weight: bold;
+  border-color: #FF360B;
+}
+
+.Explore-Button a{
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+
+.GetStarted-Button{
+  color: #ece7e6;
+  font-family: poppins;
+  border-radius: 10px;
+  opacity: 100%;
+  background-color: #FF360B;
+  width: 170px;
+  height: 50px;
+  font-weight: bold;
+  border-color: #FF360B;
+  margin-left: auto;
+}
+
+
+.sambira-overview{
+  text-align: center;
+}
+
+
+.FAQ{
+  background-color: white;
+  justify-content: center;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.faq-content1 {
+  width: 70%; 
+  background-color: white; 
+  border: 0px solid #f1eeee;
+  margin-left: 200px;
+}
+
+.h1-FAQ{
+  color: black;
+  margin-left: 10%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+details{
+  background-color: #FF360B;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: rgb(247, 241, 241);
+}
+
+
+summary {
+  padding: 15px; 
+  cursor: pointer; 
+}
+
+summary:hover {
+  background-color: #e0e0e0; 
+}
+
+.p-summary {
+  padding: 15px; 
+}
+
+
+/* footer edits */
+/* footer edits */
+footer {
+  background-color: #070f3b;
+  color: white;
+  padding: 20px 0;
+  font-family: poppins;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-media {
+  margin-bottom: 15px;
+}
+
+.social a {
+  margin: 0 10px;
+}
+
+.social img {
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.social img:hover {
+  transform: scale(1.1);}
+
+.navigation-footer {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.navigation-footer li {
+  margin: 0 15px; 
+}
+
+.navigation-footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navigation-footer a:hover {
+  color: #FF360B; }
+
+.copyright {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.copy-footer {
+  margin: 5px 0;}
